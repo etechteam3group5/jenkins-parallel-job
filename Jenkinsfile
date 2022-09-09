@@ -78,7 +78,7 @@ pipeline{
 				}
 			}
 		}
-		stage('status on wed check1'){
+		stage('End of Pipeline'){
 			steps{
 				echo "end of parallel job"
 			}
